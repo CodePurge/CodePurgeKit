@@ -15,6 +15,7 @@ import SwiftUI
 public struct ScanStartCategoryListView<Category: ScannableCategory>: View {
     @State private var isPressed: Bool = false
     @Environment(\.purgeIsLive) private var isLive
+    @Environment(\.openWindow) private var openWindow
 
     let options: [Category]
     let selections: Set<Category>
@@ -46,6 +47,9 @@ public struct ScanStartCategoryListView<Category: ScannableCategory>: View {
                     totalCount: options.count,
                     toggleCategory: toggleScanCategory
                 )
+                .withShowDetailsInfoButton(categoryName: category.name, alignment: .topTrailing) {
+                    openWindow(value: category.detailInfo)
+                }
             }
             
             Spacer()
