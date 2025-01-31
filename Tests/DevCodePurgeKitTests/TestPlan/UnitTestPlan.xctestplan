@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "33B0E5A5-53AD-4358-991B-075887861D42",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "DevCodePurgeKit",
+          "name" : "DevCodePurgeKit"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "DevCodePurgeKitTests",
+        "name" : "DevCodePurgeKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
