@@ -1,9 +1,9 @@
 
-# DevCodePurgeKit Documentation
+# CodePurgeKit Documentation
 
 ## Overview
 
-`DevCodePurgeKit` is a shared module within the app, **DevCodePurge**, and resides in the **DevCodePurgeApp** organization on GitHub. It includes shared models, logic, views, and view modifiers to provide essential functionality for managing Xcode-related files. 
+`CodePurgeKit` is a shared module within the app, **CodePurge**, and resides in the **CodePurgeApp** organization on GitHub. It includes shared models, logic, views, and view modifiers to provide essential functionality for managing Xcode-related files. 
 
 ## Modules/Components
 

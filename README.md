@@ -4,9 +4,9 @@
 ![Swift](https://img.shields.io/badge/Swift-5.7-blue)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2013.0-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
-<!-- ![Version](https://img.shields.io/github/v/release/DevCodePurge/DevCodePurgeKit?refresh=true) -->
+<!-- ![Version](https://img.shields.io/github/v/release/CodePurge/CodePurgeKit?refresh=true) -->
 
-**CodePurgeKit** is a shared module within the [CodePurge](https://github.com/DevCodePurge) project. It contains shared data models, utilities, and view components used throughout the CodePurge app. While the main CodePurge app is private, this package is open-source and provides the foundation for managing and organizing purgable items efficiently.
+**CodePurgeKit** is a shared module within the [CodePurge](https://github.com/CodePurge) project. It contains shared data models, utilities, and view components used throughout the CodePurge app. While the main CodePurge app is private, this package is open-source and provides the foundation for managing and organizing purgable items efficiently.
 
 Although **CodePurgeKit** is primarily intended as part of the larger CodePurge app, its lack of dependencies makes it adaptable for use in other projects. A comprehensive documentation file is included to provide developers with detailed guidance and examples.
 
@@ -96,7 +96,7 @@ ScanStartCategoryListView(
 ```
 
 ## Contributing
-Any feedback or ideas to enhance DevCodePurgeKit would be well received. Please feel free to [open an issue](https://github.com/CodePurge/CodePurgeKit/issues/new) if you'd like to help improve this Swift package.
+Any feedback or ideas to enhance CodePurgeKit would be well received. Please feel free to [open an issue](https://github.com/CodePurge/CodePurgeKit/issues/new) if you'd like to help improve this Swift package.
 
 ## About
-This package is part of the [CodePurge](https://github.com/DevCodePurge) organization, providing tools to streamline project management and storage optimization for Xcode developers.
+This package is part of the [CodePurge](https://github.com/CodePurge) organization, providing tools to streamline project management and storage optimization for Xcode developers.
