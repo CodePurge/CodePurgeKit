@@ -1,14 +1,14 @@
 
-# DevCodePurgeKit
+# CodePurgeKit
 
 ![Swift](https://img.shields.io/badge/Swift-5.7-blue)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2013.0-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- ![Version](https://img.shields.io/github/v/release/DevCodePurge/DevCodePurgeKit?refresh=true) -->
 
-**DevCodePurgeKit** is a shared module within the [DevCodePurge](https://github.com/DevCodePurge) project. It contains shared data models, utilities, and view components used throughout the DevCodePurge app. While the main DevCodePurge app is private, this package is open-source and provides the foundation for managing and organizing purgable items efficiently.
+**CodePurgeKit** is a shared module within the [CodePurge](https://github.com/DevCodePurge) project. It contains shared data models, utilities, and view components used throughout the CodePurge app. While the main CodePurge app is private, this package is open-source and provides the foundation for managing and organizing purgable items efficiently.
 
-Although **DevCodePurgeKit** is primarily intended as part of the larger DevCodePurge app, its lack of dependencies makes it adaptable for use in other projects. A comprehensive documentation file is included to provide developers with detailed guidance and examples.
+Although **CodePurgeKit** is primarily intended as part of the larger CodePurge app, its lack of dependencies makes it adaptable for use in other projects. A comprehensive documentation file is included to provide developers with detailed guidance and examples.
 
 ## Features
 
@@ -23,18 +23,18 @@ Although **DevCodePurgeKit** is primarily intended as part of the larger DevCode
 
 ### Swift Package Manager
 
-To use **DevCodePurgeKit** in your project, add it to your `Package.swift`:
+To use **CodePurgeKit** in your project, add it to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/DevCodePurge/DevCodePurgeKit", branch: "main")
+    .package(url: "https://github.com/CodePurge/CodePurgeKit", branch: "main")
 ]
 ```
 
 Then, import it wherever needed:
 
 ```swift
-import DevCodePurgeKit
+import CodePurgeKit
 ```
 
 ## Components
@@ -73,11 +73,11 @@ import DevCodePurgeKit
 
 ## Documentation
 
-For more detailed information about the components, usage examples, and customization options, refer to the [comprehensive documentation file](docs/DevCodePurgeKit_Documentation.md) included in this package.
+For more detailed information about the components, usage examples, and customization options, refer to the [comprehensive documentation file](docs/CodePurgeKit_Documentation.md) included in this package.
 
 ## Getting Started
 
-1. **Add the Package**: Follow the installation instructions above to integrate `DevCodePurgeKit` into your project.
+1. **Add the Package**: Follow the installation instructions above to integrate `CodePurgeKit` into your project.
 2. **Implement Your Models**: Conform your models to protocols like `PurgableItem` and `ScannableCategory`.
 3. **Use the Components**: Utilize the views and modifiers to build your interface.
 
@@ -96,7 +96,7 @@ ScanStartCategoryListView(
 ```
 
 ## Contributing
-Any feedback or ideas to enhance DevCodePurgeKit would be well received. Please feel free to [open an issue](https://github.com/DevCodePurge/DevCodePurgeKit/issues/new) if you'd like to help improve this Swift package.
+Any feedback or ideas to enhance DevCodePurgeKit would be well received. Please feel free to [open an issue](https://github.com/CodePurge/CodePurgeKit/issues/new) if you'd like to help improve this Swift package.
 
 ## About
-This package is part of the [DevCodePurge](https://github.com/DevCodePurge) organization, providing tools to streamline project management and storage optimization for Xcode developers.
+This package is part of the [CodePurge](https://github.com/DevCodePurge) organization, providing tools to streamline project management and storage optimization for Xcode developers.

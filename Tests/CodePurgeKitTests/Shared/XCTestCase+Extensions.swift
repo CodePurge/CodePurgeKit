@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import DevCodePurgeKit
+import CodePurgeKit
 
 extension XCTestCase {
     func makeItem(id: String = "0", name: String = "folder", dateModified: Date? = nil, size: Int64 = 100) -> MockItem {

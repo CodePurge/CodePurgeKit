@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "DevCodePurgeKit",
+    name: "CodePurgeKit",
     platforms: [
         .macOS(.v13)
     ],
     products: [
         .library(
-            name: "DevCodePurgeKit",
-            targets: ["DevCodePurgeKit"]
+            name: "CodePurgeKit",
+            targets: ["CodePurgeKit"]
         ),
     ],
     dependencies: [
@@ -19,12 +19,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "DevCodePurgeKit"
+            name: "CodePurgeKit"
         ),
         .testTarget(
-            name: "DevCodePurgeKitTests",
+            name: "CodePurgeKitTests",
             dependencies: [
-                "DevCodePurgeKit",
+                "CodePurgeKit",
                 .product(name: "NnTestHelpers", package: "NnTestKit")
             ]
         )

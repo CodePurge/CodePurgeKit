@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import DevCodePurgeKit
+import CodePurgeKit
 
 struct MockItem: PurgableItem {
     let id: String

@@ -8,7 +8,7 @@
 import XCTest
 import Combine
 import NnTestHelpers
-@testable import DevCodePurgeKit
+@testable import CodePurgeKit
 
 final class PurgableItemDataSourceTests: XCTestCase {
     private var cancellables = Set<AnyCancellable>()
