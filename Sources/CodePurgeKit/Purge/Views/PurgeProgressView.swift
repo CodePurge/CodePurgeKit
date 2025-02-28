@@ -8,10 +8,14 @@
 import SwiftUI
 
 /// A SwiftUI view that displays the progress of a purge operation.
-struct PurgeProgressView: View {
+public struct PurgeProgressView: View {
     let info: ProgressInfo
     
-    var body: some View {
+    public init(info: ProgressInfo) {
+        self.info = info
+    }
+    
+    public var body: some View {
         VStack {
             ProgressBarView("Purge in Progress", info: info)
             
