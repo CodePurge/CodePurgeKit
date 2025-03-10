@@ -47,14 +47,6 @@ public struct ScanContentView<Home: View, Result: View>: View {
             .frame(maxWidth: 500)
         case .finished:
             result()
-        case .failed(let errorMessage):
-            VStack {
-                Text(errorMessage)
-                    .padding()
-                    .font(.title3)
-                
-                Button("Start Over", action: delegate.startOver)
-            }
         }
     }
 }

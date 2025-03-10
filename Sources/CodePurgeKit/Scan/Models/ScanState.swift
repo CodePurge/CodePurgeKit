@@ -10,7 +10,6 @@ public enum ScanState: Equatable {
     case notStarted
     case inProgress(ScanDetails)
     case finished
-    case failed(String)
 }
 
 public struct ScanDetails: Equatable {
